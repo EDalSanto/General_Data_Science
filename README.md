@@ -1,2 +1,2 @@
 # General-Data-Science
-Starting with GA Data Science Repo
+Starting with DAT8 Repo
