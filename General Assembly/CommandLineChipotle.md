@@ -20,19 +20,19 @@ What do you think each row means? Tell me! (If you're unsure, look at more of th
 4. Which burrito is more popular, steak or chicken?
 
 	* Answer: **Chicken**
-		*compare 'grep -i "chicken burrito" | wc -l' to 'grep -i "steak burrito" | wc -l  
+		* compare 'grep -i "chicken burrito" | wc -l' to 'grep -i "steak burrito" | wc -l  
 
 5. Do chicken burritos more often have black beans or pinto beans?
 	
-	*Answer: **Black Beans**
-		*compare "chicken burrito" DAT8/data/chipotle.tsv | grep -i "black beans" | wc -l
-		and grep -i "chicken burrito" DAT8/data/chipotle.tsv | grep -i "pinto beans" | wc -l
+	* Answer: **Black Beans**
+		* compare "chicken burrito" DAT8/data/chipotle.tsv | grep -i "black beans" | wc -l
+		   and grep -i "chicken burrito" DAT8/data/chipotle.tsv | grep -i "pinto beans" | wc -l
 	
 
 6. Make a list of all of the CSV or TSV files in the DAT8 repo 
 (using a single command). Think about how wildcard characters can help you with this task.
 
-	*Answer: DAT8/data/airlines.csv
+	* Answer: DAT8/data/airlines.csv
 			 DAT8/data/bank-additional.csv
 			 DAT8/data/bikeshare.csv
 			 DAT8/data/chipotle.tsv
@@ -50,11 +50,11 @@ What do you think each row means? Tell me! (If you're unsure, look at more of th
 7. Count the approximate number of occurrences of the word "dictionary" 
 (regardless of case) across all files in the DAT8 repo.
 
-	*Answer: 1,353
+	* Answer: 1,353
 		* grep -r "dictionary" DAT8 | wc -w
 	
 8. Optional: Use the the command line to discover something "interesting" about
 the Chipotle data. Try using the commands from the "advanced" section!
 	
-	*Answer: They sold 122% more items with chicken than with steak
-		*grep -i "chicken" chipotle.tsv | wc -l and grep -i "steak" chipotle.tsv | wc -l
+	* Answer: They sold 122% more items with chicken than with steak
+		* grep -i "chicken" chipotle.tsv | wc -l and grep -i "steak" chipotle.tsv | wc -l
